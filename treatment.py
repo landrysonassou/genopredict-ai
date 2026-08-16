@@ -19,7 +19,7 @@ from __future__ import annotations
 import logging
 from dataclasses import dataclass, field
 
-from .models import RiskCategory
+from models import RiskCategory
 
 logger = logging.getLogger(__name__)
 
