@@ -24,7 +24,7 @@ from sklearn.model_selection import train_test_split
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
-from src import features, ingestion, models, treatment  # noqa: E402
+import features, ingestion, models, treatment
 
 st.set_page_config(
     page_title="GenoPredict-AI",
