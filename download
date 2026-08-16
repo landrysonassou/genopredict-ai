@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.venv/
+venv/
+env/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Données générées localement (voir data/generate_synthetic_data.py)
+data/variant_matrix.csv
+data/annotations.csv
+
+# OS / IDE
+.DS_Store
+.vscode/
+.idea/
